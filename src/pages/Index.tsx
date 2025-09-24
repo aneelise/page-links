@@ -17,7 +17,7 @@ const Index = () => {
           bio="Meus favoritos do dia a dia ✨ Produtos que eu uso, amo e recomendo de verdade."
         />
         
-        <div className="space-y-4">
+        <div className="space-y-3">
           <LinkButton
             href="https://s.shopee.com.br/3AyHU1XboV"
             title="🛍️ Whey Protein Adaptogen"
