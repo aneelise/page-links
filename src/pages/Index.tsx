@@ -2,10 +2,11 @@ import React from 'react';
 import { Instagram, MessageCircle } from 'lucide-react';
 import ProfileSection from '@/components/ProfileSection';
 import LinkButton from '@/components/LinkButton';
-import wheyProteinImage from '@/assets/whey-protein.jpg';
-import skincareImage from '@/assets/skincare-products.jpg';
-import makeupImage from '@/assets/makeup-palette.jpg';
-import giftBoxImage from '@/assets/gift-box.jpg';
+import wheyProteinImage from '@/assets/whey.png';
+import mixerImage from '@/assets/mixer.png'
+import boloImage from '@/assets/bolo.png';
+import picoleImage from '@/assets/picole.png';
+import docedeleiteImage from '@/assets/docedeleite.png';
 
 const Index = () => {
   console.log('Index component is rendering');
@@ -20,44 +21,52 @@ const Index = () => {
         <div className="space-y-3">
           <LinkButton
             href="https://s.shopee.com.br/3AyHU1XboV"
-            title="🛍️ Whey Protein Adaptogen"
+            title="Whey Protein Adaptogen"
             subtitle="Meu suplemento favorito"
             image={wheyProteinImage}
             imageAlt="Whey Protein Adaptogen"
           />
           
           <LinkButton
-            href="https://exemplo.com/produtos-cuidados"
-            title="💅 Produtos de Cuidados"
-            subtitle="Skincare e autocuidado"
-            image={skincareImage}
+            href="https://s.shopee.com.br/6fY9iuAKh0"
+            title=" Mixer Elétrico "
+            subtitle="Compacto, rápido e versátil"
+            image={mixerImage}
+            imageAlt="Produtos de skincare"
+          />
+
+           <LinkButton
+            href="https://s.shopee.com.br/1BDDCk8n9c"
+            title="Doce de Leite - La Sereníssima 400g"
+            subtitle="Doce de leite argentino cremoso"
+            image={docedeleiteImage}
             imageAlt="Produtos de skincare"
           />
           
           <LinkButton
-            href="https://exemplo.com/makeup"
-            title="💄 Maquiagem Imperdível"
-            subtitle="Looks incríveis para o dia a dia"
-            image={makeupImage}
+            href="https://s.shopee.com.br/2qLRA2FjqN"
+            title="Mini Máquina de bolo"
+            subtitle="Mini bolos fresquinhos sempre que quiser."
+            image={boloImage}
             imageAlt="Paleta de maquiagem"
           />
           
           <LinkButton
-            href="https://exemplo.com/promocoes"
-            title="🎁 Promoções Exclusivas"
-            subtitle="Descontos só para quem me segue!"
-            image={giftBoxImage}
+            href="https://s.shopee.com.br/Le6CkaX7G"
+            title="Forma para picolé silicone "
+            subtitle="Faça seus próprios picolés saudáveis."
+            image={picoleImage}
             imageAlt="Caixa de presente"
           />
           
           <LinkButton
-            href="https://instagram.com/seuperfil"
+            href="https://www.instagram.com/ane_soares1/"
             title="📸 Me siga no Instagram"
-            subtitle="Conteúdo diário e dicas de beleza"
+            subtitle="Conteúdos diários."
           />
-          
+
           <LinkButton
-            href="https://exemplo.com/contato"
+            href="mailto:aneelise117@gmail.com"
             title="💬 Fale Comigo"
             subtitle="Dúvidas? Manda uma mensagem!"
           />
