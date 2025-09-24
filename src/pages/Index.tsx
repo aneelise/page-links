@@ -34,7 +34,7 @@ const Index = () => {
             title=" Mixer Elétrico "
             subtitle="Compacto, rápido e versátil"
             image={mixerImage}
-            imageAlt="Produtos de skincare"
+            imageAlt="Mixer Elétrico"
           />
 
            <LinkButton
@@ -42,7 +42,7 @@ const Index = () => {
             title="Doce de Leite - La Sereníssima 400g"
             subtitle="Doce de leite argentino cremoso"
             image={docedeleiteImage}
-            imageAlt="Produtos de skincare"
+            imageAlt="Doce de leite argentino cremoso"
           />
           
           <LinkButton
@@ -50,21 +50,21 @@ const Index = () => {
             title="Mini Máquina de bolo"
             subtitle="Mini bolos fresquinhos sempre que quiser."
             image={boloImage}
-            imageAlt="Paleta de maquiagem"
+            imageAlt="Mini Máquina de bolo"
           />
            <LinkButton
             href="https://s.shopee.com.br/2qLRA2FjqN"
             title="Prensa Francesa"
             subtitle="Café/Chá fresco e prático."
             image={prensaImage}
-            imageAlt="Paleta de maquiagem"
+            imageAlt="Prensa Francesa"
           />
            <LinkButton
             href="https://s.shopee.com.br/9zobkYjd6P"
             title="Kit Potes de Vidro 370ml "
             subtitle="Organize com praticidade."
             image={marmitaImage}
-            imageAlt="Paleta de maquiagem"
+            imageAlt="Kit Potes de Vidro"
           />
           
           <LinkButton
@@ -72,7 +72,7 @@ const Index = () => {
             title="Forma para picolé silicone "
             subtitle="Faça seus próprios picolés saudáveis."
             image={picoleImage}
-            imageAlt="Caixa de presente"
+            imageAlt="Forma para picolé silicone "
           />
           
           <LinkButton
