@@ -4,6 +4,7 @@ import ProfileSection from '@/components/ProfileSection';
 import LinkButton from '@/components/LinkButton';
 
 const Index = () => {
+  console.log('Index component is rendering');
   return (
     <div className="min-h-screen py-8 px-4">
       <div className="max-w-lg mx-auto">

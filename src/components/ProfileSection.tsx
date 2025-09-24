@@ -12,6 +12,7 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({
   bio, 
   profileImage = profilePhoto 
 }) => {
+  console.log('ProfileSection rendering with:', { name, bio, profileImage });
   return (
     <div className="profile-container">
       <img
