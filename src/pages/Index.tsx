@@ -7,6 +7,8 @@ import mixerImage from '@/assets/mixer.png'
 import boloImage from '@/assets/bolo.png';
 import picoleImage from '@/assets/picole.png';
 import docedeleiteImage from '@/assets/docedeleite.png';
+import marmitaImage from '@/assets/marmita.png';
+import prensaImage from '@/assets/prensa.png';
 
 const Index = () => {
   console.log('Index component is rendering');
@@ -50,9 +52,23 @@ const Index = () => {
             image={boloImage}
             imageAlt="Paleta de maquiagem"
           />
+           <LinkButton
+            href="https://s.shopee.com.br/2qLRA2FjqN"
+            title="Prensa Francesa"
+            subtitle="Café/Chá fresco e prático."
+            image={prensaImage}
+            imageAlt="Paleta de maquiagem"
+          />
+           <LinkButton
+            href="https://s.shopee.com.br/9zobkYjd6P"
+            title="Kit Potes de Vidro 370ml "
+            subtitle="Organize com praticidade."
+            image={marmitaImage}
+            imageAlt="Paleta de maquiagem"
+          />
           
           <LinkButton
-            href="https://s.shopee.com.br/Le6CkaX7G"
+            href="https://s.shopee.com.br/9pVBYrMSTw"
             title="Forma para picolé silicone "
             subtitle="Faça seus próprios picolés saudáveis."
             image={picoleImage}
