@@ -5,10 +5,11 @@ interface LinkButtonProps {
   href: string;
   title: string;
   subtitle?: string;
-  icon?: React.ReactNode;
+  image?: string;
+  imageAlt?: string;
 }
 
-const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, icon }) => {
+const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, image, imageAlt }) => {
   return (
     <a
       href={href}
@@ -17,16 +18,22 @@ const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, icon }) 
       className="link-button group"
     >
       <div className="flex items-center justify-between">
-        <div className="flex items-center space-x-3">
-          {icon && (
-            <div className="text-primary group-hover:text-primary-foreground transition-colors">
-              {icon}
+        <div className="flex items-center space-x-4">
+          {image && (
+            <div className="flex-shrink-0">
+              <img 
+                src={image} 
+                alt={imageAlt || title}
+                className="w-14 h-14 rounded-xl object-cover border-2 border-border/30 group-hover:border-primary-foreground/30 transition-colors"
+              />
             </div>
           )}
-          <div className="text-left">
-            <div className="font-semibold">{title}</div>
+          <div className="text-left flex-1">
+            <div className="font-semibold text-card-foreground group-hover:text-secondary-foreground transition-colors">
+              {title}
+            </div>
             {subtitle && (
-              <div className="text-sm text-muted-foreground group-hover:text-primary-foreground/80 transition-colors">
+              <div className="text-sm text-muted-foreground group-hover:text-secondary-foreground/80 transition-colors">
                 {subtitle}
               </div>
             )}
@@ -34,7 +41,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, icon }) 
         </div>
         <ExternalLink 
           size={18} 
-          className="text-muted-foreground group-hover:text-primary-foreground transition-colors"
+          className="text-muted-foreground group-hover:text-secondary-foreground transition-colors flex-shrink-0"
         />
       </div>
     </a>

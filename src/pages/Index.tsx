@@ -1,7 +1,11 @@
 import React from 'react';
-import { ShoppingBag, Heart, Instagram, MessageCircle, Star, Gift } from 'lucide-react';
+import { Instagram, MessageCircle } from 'lucide-react';
 import ProfileSection from '@/components/ProfileSection';
 import LinkButton from '@/components/LinkButton';
+import wheyProteinImage from '@/assets/whey-protein.jpg';
+import skincareImage from '@/assets/skincare-products.jpg';
+import makeupImage from '@/assets/makeup-palette.jpg';
+import giftBoxImage from '@/assets/gift-box.jpg';
 
 const Index = () => {
   console.log('Index component is rendering');
@@ -18,42 +22,44 @@ const Index = () => {
             href="https://s.shopee.com.br/3AyHU1XboV"
             title="🛍️ Whey Protein Adaptogen"
             subtitle="Meu suplemento favorito"
-            icon={<ShoppingBag size={24} />}
+            image={wheyProteinImage}
+            imageAlt="Whey Protein Adaptogen"
           />
           
           <LinkButton
             href="https://exemplo.com/produtos-cuidados"
             title="💅 Produtos de Cuidados"
             subtitle="Skincare e autocuidado"
-            icon={<Heart size={24} />}
+            image={skincareImage}
+            imageAlt="Produtos de skincare"
           />
           
           <LinkButton
             href="https://exemplo.com/makeup"
             title="💄 Maquiagem Imperdível"
             subtitle="Looks incríveis para o dia a dia"
-            icon={<Star size={24} />}
+            image={makeupImage}
+            imageAlt="Paleta de maquiagem"
           />
           
           <LinkButton
             href="https://exemplo.com/promocoes"
             title="🎁 Promoções Exclusivas"
             subtitle="Descontos só para quem me segue!"
-            icon={<Gift size={24} />}
+            image={giftBoxImage}
+            imageAlt="Caixa de presente"
           />
           
           <LinkButton
             href="https://instagram.com/seuperfil"
             title="📸 Me siga no Instagram"
             subtitle="Conteúdo diário e dicas de beleza"
-            icon={<Instagram size={24} />}
           />
           
           <LinkButton
             href="https://exemplo.com/contato"
             title="💬 Fale Comigo"
             subtitle="Dúvidas? Manda uma mensagem!"
-            icon={<MessageCircle size={24} />}
           />
         </div>
         

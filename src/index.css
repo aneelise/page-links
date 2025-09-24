@@ -135,7 +135,7 @@
     @apply w-full max-w-md mx-auto bg-card/80 backdrop-blur-sm border border-border/50 
            rounded-2xl p-4 text-center font-medium text-card-foreground 
            transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-[var(--shadow-warm)]
-           hover:bg-primary hover:text-primary-foreground active:scale-[0.98];
+           hover:bg-secondary/90 active:scale-[0.98];
   }
 
   /* Profile container */
