@@ -53,7 +53,7 @@ const Index = () => {
             imageAlt="Mini Máquina de bolo"
           />
            <LinkButton
-            href="https://s.shopee.com.br/2qLRA2FjqN"
+            href="https://s.shopee.com.br/9pVBYrMSTw"
             title="Prensa Francesa"
             subtitle="Café/Chá fresco e prático."
             image={prensaImage}
@@ -68,7 +68,7 @@ const Index = () => {
           />
           
           <LinkButton
-            href="https://s.shopee.com.br/9pVBYrMSTw"
+            href="https://s.shopee.com.br/4q6VdIQkTl"
             title="Forma para picolé silicone "
             subtitle="Faça seus próprios picolés saudáveis."
             image={picoleImage}
