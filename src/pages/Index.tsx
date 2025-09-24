@@ -9,15 +9,15 @@ const Index = () => {
     <div className="min-h-screen py-8 px-4">
       <div className="max-w-lg mx-auto">
         <ProfileSection
-          name="Sua Marca ✨"
-          bio="Produtos incríveis para você se sentir ainda mais linda! 💄✨ Toque para conhecer minha loja favorita"
+          name="Ane Elise 🌻"
+          bio="Meus favoritos do dia a dia ✨ Produtos que eu uso, amo e recomendo de verdade."
         />
         
         <div className="space-y-4">
           <LinkButton
-            href="https://exemplo.com/loja-principal"
-            title="🛍️ Minha Loja Favorita"
-            subtitle="Os melhores produtos de beleza com desconto!"
+            href="https://s.shopee.com.br/3AyHU1XboV"
+            title="🛍️ Whey Protein Adaptogen"
+            subtitle="Meu suplemento favorito"
             icon={<ShoppingBag size={24} />}
           />
           
