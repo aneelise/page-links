@@ -132,8 +132,7 @@
 @layer components {
   /* Link button styles */
   .link-button {
-    @apply w-full max-w-md mx-auto bg-card/80 backdrop-blur-sm border border-border/50 
-           rounded-2xl p-5 text-center font-medium text-card-foreground 
+    @apply w-full max-w-md mx-auto p-5 text-center font-medium text-card-foreground 
            transition-all duration-300 ease-out mb-4;
   }
 
