@@ -20,11 +20,12 @@ const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, image, i
       <div className="flex items-center justify-between min-h-[60px]">
         <div className="flex items-center space-x-4 flex-1">
           {image ? (
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 overflow-hidden rounded-xl">
               <img 
                 src={image} 
                 alt={imageAlt || title}
-                className="w-14 h-14 rounded-xl object-cover"
+                className="w-14 h-14 rounded-xl object-cover block"
+                style={{ imageRendering: 'crisp-edges' }}
               />
             </div>
           ) : (
