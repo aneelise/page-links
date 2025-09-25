@@ -24,7 +24,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, image, i
               <img 
                 src={image} 
                 alt={imageAlt || title}
-                className="w-14 h-14 rounded-xl object-cover border-2 border-border/30 group-hover:border-secondary-foreground/30 transition-colors"
+                className="w-14 h-14 rounded-xl object-cover"
               />
             </div>
           ) : (
