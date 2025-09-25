@@ -20,25 +20,24 @@ const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, image, i
       <div className="flex items-center justify-between min-h-[60px]">
         <div className="flex items-center space-x-4 flex-1">
           {image ? (
-            <div className="flex-shrink-0 overflow-hidden rounded-xl">
+            <div className="flex-shrink-0">
               <img 
                 src={image} 
                 alt={imageAlt || title}
-                className="w-14 h-14 rounded-xl object-cover block"
-                style={{ imageRendering: 'crisp-edges' }}
+                className="w-14 h-14 rounded-xl object-cover"
               />
             </div>
           ) : (
-            <div className="w-14 h-14 rounded-xl bg-secondary border-2 border-border/30 group-hover:border-secondary-foreground/30 transition-colors flex items-center justify-center text-2xl flex-shrink-0">
+            <div className="w-14 h-14 rounded-xl bg-secondary border-2 border-border/30 flex items-center justify-center text-2xl flex-shrink-0">
               {title.split(' ')[0]}
             </div>
           )}
           <div className="text-left flex-1 min-w-0">
-            <div className="font-semibold text-card-foreground group-hover:text-secondary-foreground transition-colors">
+            <div className="font-semibold text-card-foreground">
               {title}
             </div>
             {subtitle && (
-              <div className="text-sm text-muted-foreground group-hover:text-secondary-foreground/80 transition-colors mt-1">
+              <div className="text-sm text-muted-foreground mt-1">
                 {subtitle}
               </div>
             )}
@@ -46,7 +45,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, image, i
         </div>
         <ExternalLink 
           size={18} 
-          className="text-muted-foreground group-hover:text-secondary-foreground transition-colors flex-shrink-0 ml-2"
+          className="text-muted-foreground flex-shrink-0 ml-2"
         />
       </div>
     </a>
