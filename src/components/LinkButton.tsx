@@ -28,7 +28,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({ href, title, subtitle, image, i
               />
             </div>
           ) : (
-            <div className="w-14 h-14 rounded-xl bg-secondary border-2 border-border/30 flex items-center justify-center text-2xl flex-shrink-0">
+            <div className="w-14 h-14 rounded-xl bg-secondary flex items-center justify-center text-2xl flex-shrink-0">
               {title.split(' ')[0]}
             </div>
           )}
